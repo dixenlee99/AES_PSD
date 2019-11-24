@@ -1,5 +1,4 @@
 `timescale 1ns / 1ps
-
 module shiftrow(sb,sr);
 
 input [127:0] sb;
@@ -24,6 +23,4 @@ assign          sr[31:24] = sb[31:24];
 assign          sr[23:16] = sb[119:112];
 assign          sr[15:8] = sb[79:72];
 assign          sr[7:0] = sb[39:32]; 
-
-
 endmodule
